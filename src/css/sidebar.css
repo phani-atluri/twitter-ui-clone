@@ -1,0 +1,23 @@
+.sideBar {
+  border-right: 1px solid #dadcdd;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex: 0.25;
+  flex-shrink: 3;
+}
+.sidebar__tweet {
+  background-color: rgba(29, 161, 242, 1) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+  margin-top: 20px !important;
+}
+.sidebar__icon {
+  color: rgba(29, 161, 242, 1) !important;
+  font-size: 30px !important;
+  padding: 10px;
+  margin: 10px;
+}

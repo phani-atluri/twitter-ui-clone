@@ -1,0 +1,14 @@
+.app {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1400px;
+  flex-flow: row wrap;
+  flex-basis: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+  }
+}

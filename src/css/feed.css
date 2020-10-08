@@ -1,0 +1,9 @@
+.feed {
+  border-right: 1px solid #dadcdd;
+  flex: 0.5;
+  overflow-y: auto;
+}
+.feed > h1 {
+  padding: 10px;
+  border-bottom: 1px solid #dadcdd;
+}

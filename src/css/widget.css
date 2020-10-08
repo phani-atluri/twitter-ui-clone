@@ -1,0 +1,41 @@
+.widget__Container > h2 {
+  padding-top: 10px;
+}
+.widget {
+  flex: 0.25;
+  padding: 10px 20px;
+}
+.widget__Input {
+  border-radius: 25px;
+  width: 95%;
+  display: flex;
+  background-color: rgb(227, 244, 255);
+  padding: 5px;
+}
+.widget__Input > input {
+  background-color: rgb(227, 244, 255) !important;
+  font-size: 15px;
+  border-style: none;
+}
+.widget__Input > input:focus {
+  outline: none;
+  background-color: rgb(227, 244, 255) !important;
+}
+.twitterMoment {
+  padding: 10px;
+  border-radius: 25px;
+  overflow-y: scroll !important;
+}
+.widget__Container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(227, 244, 255, 0.7) !important;
+  padding: 5px;
+  margin: 10px 0px;
+  width: 95%;
+  border-radius: 20px;
+  height: 100%;
+}
+.widget__tweet {
+  padding: 10px;
+}

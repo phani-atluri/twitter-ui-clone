@@ -1,0 +1,60 @@
+.post {
+  display: flex;
+  border-bottom: 1px solid whitesmoke;
+  padding: 5px 10px;
+}
+.post__body {
+  padding: 10px;
+  width: 100%;
+}
+.post__badge {
+  color: rgb(75, 161, 250) !important;
+}
+.post__headerDescription {
+  padding: 5px;
+}
+.post__headerText {
+  display: flex;
+  align-items: center;
+}
+.post__footer {
+  margin: 5px 0px !important;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.post__badge {
+  font-size: 16px !important;
+}
+.share:hover {
+  color: mediumturquoise;
+  cursor: pointer;
+}
+.fav,
+.repeat,
+.share {
+  border-radius: 25px;
+  border-style: none;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.fav:hover {
+  background-color: rgb(224, 36, 94, 0.2);
+  color: rgb(224, 36, 94);
+  cursor: pointer;
+}
+.repeat:hover {
+  background-color: rgb(23, 191, 99, 0.2);
+  color: rgb(23, 191, 99);
+  cursor: pointer;
+}
+.share:hover {
+  background-color: rgba(29, 161, 242, 0.2);
+  color: rgba(29, 161, 242, 1);
+  cursor: pointer;
+}
+.post__headerDescription > p {
+  word-break: break-all;
+}
